@@ -1,0 +1,6 @@
+product_id,product_name,product_type,price_multiplier_vs_core
+PRD_CORE,Core Workspace,Core,1.0
+PRD_AUTO,Workflow Automation,Add-on,0.35
+PRD_AI,AI Assistant,Add-on,0.45
+PRD_SEC,Advanced Security,Add-on,0.3
+PRD_BI,Analytics Pro,Add-on,0.4

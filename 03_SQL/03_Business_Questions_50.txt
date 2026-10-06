@@ -1,0 +1,50 @@
+Q01. Profile accounts by segment, industry, region and acquisition channel.
+Q02. Calculate latest active logos, MRR and ARR.
+Q03. Calculate ARPA by segment.
+Q04. Calculate average seat utilization by segment and plan.
+Q05. Identify accounts with seat utilization below 35%.
+Q06. Calculate monthly logo churn rate.
+Q07. Calculate monthly MRR churn rate.
+Q08. Calculate GRR by month.
+Q09. Calculate NRR by month.
+Q10. Build a monthly MRR bridge.
+Q11. Rank segments by latest ARR.
+Q12. Rank industries by churned ARR over the last 12 months.
+Q13. Compare churn for monthly vs annual billing.
+Q14. Compare churn by contract term.
+Q15. Compare churn by discount band.
+Q16. Identify discounts above plan standard.
+Q17. Estimate annual pricing leakage.
+Q18. Calculate NPS promoter/passive/detractor distribution.
+Q19. Compare churn among detractors vs promoters.
+Q20. Compare churn for accounts with vs without critical tickets.
+Q21. Average resolution time and CSAT by ticket type.
+Q22. Identify CSMs with highest ARR at risk.
+Q23. Calculate add-on attach rate.
+Q24. Compare retention for 1, 2, 3+ products.
+Q25. AI Assistant adoption by segment.
+Q26. Identify healthy high-utilization expansion candidates.
+Q27. Identify low-utilization downsell risk.
+Q28. Build an account health-risk table.
+Q29. Failed and late payment rates by segment.
+Q30. Compare churn by acquisition channel.
+Q31. Calculate monthly CAC by channel.
+Q32. Calculate new ARR per £1 acquisition spend.
+Q33. Build logo-retention cohorts.
+Q34. Build revenue-retention cohorts.
+Q35. Median time-to-churn by segment.
+Q36. Expansion and contraction MRR by month.
+Q37. Expansion rate by segment.
+Q38. Top 100 accounts contributing most to contraction.
+Q39. Churn reasons by lost ARR.
+Q40. Top-10 account ARR concentration.
+Q41. ARR concentration by industry.
+Q42. Accounts over plan max seats.
+Q43. Estimate upgrade opportunity value.
+Q44. Utilization before expansion vs non-expansion.
+Q45. CSM workload by account manager.
+Q46. Compare portfolio ARR with CSM capacity.
+Q47. Next 90-day renewal pool.
+Q48. Prioritize renewals using ARR and health.
+Q49. Executive segment scorecard.
+Q50. Board-level issue ranking by annualized revenue impact.

@@ -1,0 +1,4 @@
+initiative,addressable_pool_gbp,low_capture,base_capture,high_capture,assumption,low_impact_gbp,base_impact_gbp,high_impact_gbp
+Retention rescue,47125662.599999994,0.05,0.12,0.2,Share of at-risk ARR prevented from churning/contracting,2356283.13,5655079.511999999,9425132.52
+Pricing recovery,20895381.589999996,0.2,0.4,0.6,Share of excess-discount leakage recovered,4179076.3179999995,8358152.635999999,12537228.953999998
+Expansion program,166891116.36,0.03,0.07,0.12,Incremental ARR as % of eligible expansion pool,5006733.4908,11682378.145200003,20026933.9632

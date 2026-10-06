@@ -1,0 +1,5 @@
+plan_id,plan_name,plan_family,list_price_per_seat_month,min_seats,max_seats,standard_discount_pct,premium_support,plan_rank
+PLN_START,Starter,Core,4.5,5,50,0.0,False,1
+PLN_GROW,Growth,Core,10.5,15,250,0.05,True,2
+PLN_SCALE,Scale,Core,19.5,50,1000,0.1,True,3
+PLN_ENT,Enterprise,Enterprise,30.0,150,5000,0.16,True,4

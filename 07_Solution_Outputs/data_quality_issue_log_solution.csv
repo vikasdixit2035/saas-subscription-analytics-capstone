@@ -1,0 +1,11 @@
+table,column,issue_type,example,recommended_fix
+dim_accounts,industry,Case inconsistency,LOWERCASE values introduced,Normalize with INITCAP/TRIM
+dim_accounts,region,Category inconsistency,UK & I vs UK&I,Map to canonical value
+dim_accounts,acquisition_channel,Whitespace,Partner with trailing whitespace,TRIM
+dim_accounts,employee_count,Missing values,Controlled missing values,Impute/flag based on use case
+fact_monthly_account_snapshot,seat_utilization,Missing values,Controlled missing values,Recalculate active_users / seats
+fact_monthly_account_snapshot,discount_pct,Scale error,Some percentages multiplied by 100,If >1 divide by 100
+fact_monthly_account_snapshot,nps_score,Invalid range,99 values,Set outside 0–10 to NULL
+fact_invoices,invoice_id,Duplicate rows,Controlled duplicate invoices,Deduplicate on invoice_id
+fact_invoices,payment_status,Case inconsistency,paid vs Paid,INITCAP/TRIM
+fact_support_tickets,ticket_type,Case inconsistency,Product bug vs Product Bug,Canonical mapping

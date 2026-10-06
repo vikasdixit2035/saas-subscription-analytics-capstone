@@ -1,0 +1,14 @@
+{
+  "name": "Northstar Executive",
+  "dataColors": [
+    "#12355B",
+    "#2E6F95",
+    "#4B8F8C",
+    "#D4A72C",
+    "#B84A3A",
+    "#7B8794"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#12355B"
+}

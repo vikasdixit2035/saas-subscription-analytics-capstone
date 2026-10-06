@@ -1,0 +1,42 @@
+MRR £ = SUM(fact_monthly_account_snapshot[mrr_gbp])
+
+ARR £ = [MRR £] * 12
+
+Active Logos =
+CALCULATE(
+    DISTINCTCOUNT(fact_monthly_account_snapshot[account_id]),
+    fact_monthly_account_snapshot[churned_flag] = 0
+)
+
+ARPA MRR £ = DIVIDE([MRR £], [Active Logos])
+
+Avg Seat Utilization = AVERAGE(fact_monthly_account_snapshot[seat_utilization])
+
+Expansion MRR £ =
+SUMX(
+    FILTER(fact_monthly_account_snapshot,
+        fact_monthly_account_snapshot[revenue_movement] IN {"Expansion"}),
+    MAX(fact_monthly_account_snapshot[mrr_gbp] -
+        fact_monthly_account_snapshot[prior_mrr_gbp], 0)
+)
+
+Contraction MRR £ =
+SUMX(
+    FILTER(fact_monthly_account_snapshot,
+        fact_monthly_account_snapshot[revenue_movement] IN {"Contraction"}),
+    MAX(fact_monthly_account_snapshot[prior_mrr_gbp] -
+        fact_monthly_account_snapshot[mrr_gbp], 0)
+)
+
+Pricing Leakage £ =
+SUM(PricingLeakage[estimated_annual_discount_leakage_gbp])
+
+At Risk ARR £ =
+SUM(CustomerHealth[risk_arr_gbp])
+
+Healthy High Utilization ARR £ =
+CALCULATE(
+    SUM(CustomerHealth[annual_arr_gbp]),
+    CustomerHealth[health_score] >= 80,
+    CustomerHealth[avg_utilization] >= 0.80
+)
